@@ -1,0 +1,161 @@
+/* ============================================================
+   Manufacturers Browser — css/style.css
+   Mobile-first base styles (Task 3.1)
+   Breakpoint styles are in the @media block below (Task 3.2)
+   ============================================================ */
+
+/* ── Reset / box-sizing ─────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ── Body ───────────────────────────────────────────────── */
+body {
+  margin: 0;
+  padding: 0 0.5rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem; /* reduced base size so three columns fit at 320 px */
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+header {
+  padding: 0.5rem 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* ── Pagination nav ─────────────────────────────────────── */
+nav[aria-label="Page navigation"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+#pagination-label {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ── Navigation buttons — touch target (min 44×44 px)
+      Req 12.3: touch targets ≥ 44 × 44 CSS px.
+      Applied at all widths (safe on desktop too).         ── */
+#btn-prev,
+#btn-next {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: inherit;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #f5f5f5;
+}
+
+#btn-prev:disabled,
+#btn-next:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ── Status area ────────────────────────────────────────── */
+
+/* Hide the status region entirely when it has no content.
+   This prevents phantom ARIA announcements from an empty
+   live region and avoids layout shifts.                   */
+#status:empty {
+  display: none;
+}
+
+#status {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Loading state */
+.status--loading {
+  background: #e8f0fe;
+  color: #174ea6;
+  border: 1px solid #a8c4f5;
+}
+
+/* Error state */
+.status--error {
+  background: #fce8e6;
+  color: #b31412;
+  border: 1px solid #f5a8a7;
+}
+
+/* Empty dataset (informational, not an error) */
+.status--empty {
+  background: #fef9e3;
+  color: #665000;
+  border: 1px solid #f5e38a;
+}
+
+/* Retry button inside the status area */
+#status button {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: inherit;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+}
+
+/* ── Table — mobile base ────────────────────────────────── */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding: 0.25rem 0.3rem; /* tight padding so three columns fit at 320 px */
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.8rem; /* slightly smaller inside cells at narrow widths */
+}
+
+thead th {
+  background: #f0f0f0;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* ── Breakpoint: 600 px and above ───────────────────────── */
+@media (min-width: 600px) {
+  body {
+    padding: 0 1rem;
+    font-size: 1rem; /* restore normal font size */
+  }
+
+  th,
+  td {
+    padding: 0.5rem 0.75rem; /* restore normal cell padding */
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vehicle Manufacturers</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Vehicle Manufacturers</h1>
+    </header>
+    <main>
+      <nav aria-label="Page navigation">
+        <button id="btn-prev" type="button" disabled>Previous</button>
+        <span id="pagination-label">Loading…</span>
+        <button id="btn-next" type="button" disabled>Next</button>
+      </nav>
+
+      <div id="status" role="status" aria-live="polite" aria-atomic="false"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Country</th>
+            <th scope="col">Vehicle Types</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </main>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

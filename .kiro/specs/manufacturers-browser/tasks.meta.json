@@ -1,0 +1,284 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create directory structure and empty files": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575128
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369581922
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369663069
+      }
+    ],
+    "1.2 Link CSS and JS from index.html": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575402
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369664855
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369697887
+      }
+    ],
+    "2.1 Implement the full index.html skeleton": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575555
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369699935
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369727009
+      }
+    ],
+    "2.2 Verify HTML structure": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575680
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369735092
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369782135
+      }
+    ],
+    "3.1 Implement mobile-first base styles": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575766
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369737125
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369784201
+      }
+    ],
+    "3.2 Implement the 600 px breakpoint": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575855
+      },
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369786318
+      }
+    ],
+    "3.3 Verify responsive layout": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369575947
+      }
+    ],
+    "4.1 Implement IIFE wrapper, constants, state variables, and DOM references": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576034
+      }
+    ],
+    "4.2 Verify constants and state": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576115
+      }
+    ],
+    "5.1 Implement evaluateButtons() with P1–P6 priority rules": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576215
+      }
+    ],
+    "5.2 Verify evaluateButtons() against the button state machine table": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576289
+      }
+    ],
+    "6.1 Implement renderTable(results)": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576353
+      }
+    ],
+    "6.2 Implement renderPagination()": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576489
+      }
+    ],
+    "6.3 Write unit tests for renderTable() display-name and vehicle-types derivations": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576581
+      }
+    ],
+    "7.1 Implement showStatus(message, type)": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576670
+      }
+    ],
+    "7.2 Verify showStatus() visually and via accessibility tool": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576738
+      }
+    ],
+    "8.1 Implement fetchPage(page) using one outer `try/catch/finally`": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576816
+      }
+    ],
+    "8.2 Implement handleError(error)": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576891
+      }
+    ],
+    "8.3 Implement handleSuccess(data)": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369576969
+      }
+    ],
+    "9.1 Verify all four boundary detection cases": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577057
+      }
+    ],
+    "10.1 Implement handleRetry()": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577120
+      }
+    ],
+    "10.2 Verify retry flow scenarios": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577191
+      }
+    ],
+    "11.1 Wire DOMContentLoaded and button click handlers": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577311
+      }
+    ],
+    "11.2 Verify event wiring": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577397
+      }
+    ],
+    "12.1 Implement proxy.php": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577472
+      }
+    ],
+    "12.2 Verify proxy.php": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577574
+      }
+    ],
+    "13.1 Test direct browser CORS access from the production origin": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577683
+      }
+    ],
+    "14.1 Execute the manual state-transition test checklist": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577792
+      }
+    ],
+    "15.1 Verify keyboard and screen-reader accessibility": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577908
+      }
+    ],
+    "16. Final checkpoint": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369577973
+      }
+    ],
+    "1. Project scaffolding": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369697999
+      }
+    ],
+    "2. HTML structure": [
+      {
+        "executionId": "34439775-cc72-464b-b8e6-d3bdf9bdfb52",
+        "chatSessionId": "sess_b2d1d471-72ac-4a9e-a970-0eded78cded9",
+        "timestamp": 1793369782234
+      }
+    ]
+  }
+}
