@@ -73,9 +73,7 @@ nav[aria-label="Page navigation"] {
 /* Hide the status region entirely when it has no content.
    This prevents phantom ARIA announcements from an empty
    live region and avoids layout shifts.                   */
-#status:empty {
-  display: none;
-}
+#status:empty { min-height: 1.5rem; }
 
 #status {
   margin: 0.5rem 0;
@@ -139,8 +137,14 @@ td {
 thead th {
   background: #f0f0f0;
   font-weight: 700;
-  white-space: nowrap;
+  white-space: normal;
 }
+
+body { max-width: 1200px; margin: 0 auto; padding-bottom: 2rem; }
+.status--success { color: #28533b; background: #f1f8f3; }
+#status button { min-height: 44px; min-width: 44px; }
+button:focus-visible, td:focus-visible { outline: 3px solid #6950bb; outline-offset: 3px; }
+th, td { overflow-wrap: anywhere; }
 
 tbody tr:nth-child(even) {
   background: #fafafa;
